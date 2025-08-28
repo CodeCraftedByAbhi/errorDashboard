@@ -1,3 +1,53 @@
+# 📊 Professional Error Dashboard (React + Google Sheets + AI Integration)
+
+## 🚀 Overview
+This is a **Professional Error Dashboard** built using **React** that pulls live data from **Google Spreadsheets via Google API** and visualizes it using **Bar Charts** and **Pie Charts**.  
+
+The dashboard not only provides clear data visualization but also leverages **AI integration** to intelligently **categorize and analyze data**.  
+
+A **mini backend server** is included to handle secure API calls to [OpenRouter.ai](https://openrouter.ai/), where advanced AI models process and classify the spreadsheet data.
+
+---
+
+## ✨ Features
+- 📥 **Google Sheets Integration** – Fetch live spreadsheet data using Google Sheets API.  
+- 📊 **Data Visualization** – Dynamic Bar and Pie charts for error analysis.  
+- 🤖 **AI Integration** – Categorizes and analyzes spreadsheet data using OpenRouter AI API.  
+- 🛠 **Mini Backend Server** – Securely calls AI API and serves categorized results to the React frontend.  
+- 🧵 **Advanced Data Processing**  
+  - String manipulation techniques  
+  - Array manipulation for dynamic datasets  
+  - Object manipulation for structured data transformation  
+
+---
+
+## 🏗️ Tech Stack
+**Frontend**
+- React.js (with Hooks & Components)  
+- Chart.js / Recharts (for Bar & Pie charts)  
+- Bootstrap / Tailwind (for responsive UI)  
+
+**Backend**
+- Node.js + Express (mini backend server)  
+- Google Sheets API  
+- OpenRouter.ai API  
+
+**Other**
+- Axios / Fetch (for API calls)  
+
+## 🔑 Environment Variables
+Create a `.env` file in your project root and add:
+
+```bash
+# Google API
+GOOGLE_SHEET_ID=your_google_sheet_id
+GOOGLE_API_KEY=your_google_api_key
+
+# OpenRouter AI
+OPENROUTER_API_KEY=your_openrouter_api_key
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
